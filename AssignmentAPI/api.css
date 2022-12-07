@@ -1,0 +1,35 @@
+.title-style{
+
+    font-weight: 900;
+    font-size: 18px;
+    background-color: rgb(188, 143, 87);
+   
+
+}
+
+
+.img-style{
+   width: 200px;
+}
+
+body{
+   display:flex;
+
+   justify-content:flex- end;
+   align-items: auto;
+   min-height: 100vh;
+   flex-direction: column;
+}
+.meal{
+   width: auto;
+   height: auto;
+}
+
+
+#container{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   width:200px;
+   height:90px;
+}
+
